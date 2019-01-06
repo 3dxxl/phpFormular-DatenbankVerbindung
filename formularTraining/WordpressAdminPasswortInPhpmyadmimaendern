@@ -1,0 +1,8 @@
+Wordpress Admin Passwort in phpmyadmin ändern:
+1. Unter phpmyadmin auf die jeweilige Datenbank klicken
+2. Dann auf wp_users klicken
+3. Dann auf Bearbeiten klicken beim jeweiligen Benutzer
+4. In der Spalte user_pass als Funktion MD5 auswählen und den alten Wert mit einem neuen Wert/Passwort tauschen ( dieser
+   alte Wert sieht meißten so aus: $P$B8Zej7V3KDEMpJLYAJj6T0le8Od.Z80)
+5. Auf OK klicken
+6. Jetzt kann man sich mit dem neuen angelegten Passwort in das Wordpress Admin einloggen.
