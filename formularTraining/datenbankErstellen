@@ -1,0 +1,11 @@
+Datenbank erstellen für ein Formular: 
+
+1. In phpmyadmin legen wir eine neue Datenbank an, dazu klicken wir auf Neu
+2. Dann vergeben wir der Datenbank einen Namen z.b. testtest  und  unter Kollation wählen wir utf8_german2_ci
+3. Dann erstellen wir eine neue Tabelle in dieser Datenbank, wir geben den Namen der neuen Tabelle ein z.b. formular und legen die Anzahl der Spalten fest z.b. 4
+   für ein einfaches Kontaktformular welches eine ID, Vornamen, Nachnamen und eine E-Mail benötigt.
+4. In die erste Spalte trage ich ID ein, welches vom Typ ein Integer ist und unter index wähle ich primary und mache ein häckchen bei A.I. bedeutet Automatic Increment
+5. die weiteren Spalten bennen ich wie aus dem HTML Formular z.b. Vorname etc. der Typ ist Varchar ( Eine Zeichenkette ) die 
+    länge sind ca. 255, Standard bei NULL, Kollation utf8_german2_ci, 
+6. Unten nochmal Kollation utf8_german2_ci auswählen
+7. Speichern klicken
