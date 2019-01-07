@@ -1,7 +1,8 @@
 <?php
 
             /*
-            Hier wird die Verbindung zur Datenbank erstellt*/
+            Hier wird die Verbindung zur Datenbank erstellt 
+            new mysqli ("HOSTNAME", "BENUTZERNAME", "PASSWORT", DATENBANKNAME);*/
 
             $mysqli = new mysqli("localhost", "bin", 
                                 "1234", "formulartest");
